@@ -1,0 +1,16 @@
+NodeMCU 5V / Breadboard J1 -> Breadboard Positive Power Rail (right)
+NodeMCU GND / Breadboard J6 -> Breadboard Negative Power Rail (right)
+NodeMCU 3.3v / Breadboard A19 -> Breadboard Positive Power Rail (left)
+NodeMCU GND / Breadboard J19 -> Breadboard Negative Power Rail (left)
+DHT11 VCC -> Breadboard Positive Power Rail (left)
+DHT11 GND-> Breadboard Negative Power Rail (left)
+DHT11 SIG-> NodeMCU Pin 22 / Breadboard A17
+Moisture Sensor GND -> Breadboard Negative Power Rail (left)
+Moisture Sensor VCC -> Breadboard Positive Power Rail (left)
+Moisture Sensor AO -> NodeMCU Pin 34 / Breadboard J13 
+Optocoupler relay In1 -> NodeMCU Pin 32 / Breadboard J13 
+Optocoupler relay DC+ -> Breadboard Positive Power Rail (right)  
+Optocoupler relay DC- -> Breadboard Negative Power Rail (right)  
+Optocoupler relay COM -> Breadboard Negative Power Rail (right)
+Water Pump Anode -> Optocoupler relay DC+  
+Water Pump Cathode -> Optocoupler relay NO
